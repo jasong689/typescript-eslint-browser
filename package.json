@@ -1,0 +1,27 @@
+{
+  "name": "typescript-eslint-browser",
+  "version": "0.0.1",
+  "main": "./parser.cjs",
+  "module": "./parser.mjs",
+  "browser": "./parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "eslint-linter-browserify": "^9.12.0",
+    "rollup": "^4.24.0",
+    "rollup-plugin-polyfill-node": "https://github.com/jasong689/rollup-plugin-polyfill-node"
+  }
+}
