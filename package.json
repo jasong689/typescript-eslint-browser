@@ -1,6 +1,6 @@
 {
   "name": "typescript-eslint-browser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./parser.cjs",
   "module": "./parser.mjs",
   "browser": "./parser.js",

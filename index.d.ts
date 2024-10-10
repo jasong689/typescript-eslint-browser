@@ -1,1 +1,1 @@
-export * from "@typescript-eslint/parser";
+export { default } from "@typescript-eslint/parser";
