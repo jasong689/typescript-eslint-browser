@@ -4,6 +4,13 @@
   "main": "./parser.cjs",
   "module": "./parser.mjs",
   "browser": "./parser.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "parser.cjs",
+    "parser.mjs",
+    "parser.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config"
